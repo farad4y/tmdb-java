@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.uwetrottmann.tmdb2.services.TvEpisodesServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! - in com.uwetrottmann.tmdb2.services.TvEpisodesServiceTest
+test_episode_with_append_to_response(com.uwetrottmann.tmdb2.services.TvEpisodesServiceTest)  Time elapsed: 0.019 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1989-12-1[7]T00:00:00.000> but was:<1989-12-1[6]T00:00:00.000>
+	at com.uwetrottmann.tmdb2.services.TvEpisodesServiceTest.test_episode_with_append_to_response(TvEpisodesServiceTest.java:63)
+

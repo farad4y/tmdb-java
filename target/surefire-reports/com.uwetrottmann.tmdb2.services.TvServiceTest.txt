@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.uwetrottmann.tmdb2.services.TvServiceTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.394 s <<< FAILURE! - in com.uwetrottmann.tmdb2.services.TvServiceTest
+test_tvShow(com.uwetrottmann.tmdb2.services.TvServiceTest)  Time elapsed: 0.39 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual not to be null
+	at com.uwetrottmann.tmdb2.services.TvServiceTest.test_tvShow(TvServiceTest.java:50)
+
+test_tvShow_with_append_to_response(com.uwetrottmann.tmdb2.services.TvServiceTest)  Time elapsed: 1.196 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual not to be null
+	at com.uwetrottmann.tmdb2.services.TvServiceTest.test_tvShow_with_append_to_response(TvServiceTest.java:81)
+

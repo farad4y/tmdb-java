@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.uwetrottmann.tmdb2.services.AccountSessionTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 19, Time elapsed: 0.003 s - in com.uwetrottmann.tmdb2.services.AccountSessionTest

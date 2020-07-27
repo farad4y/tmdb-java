@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.uwetrottmann.tmdb2.services.MoviesServiceTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 8.405 s <<< FAILURE! - in com.uwetrottmann.tmdb2.services.MoviesServiceTest
+test_release_dates(com.uwetrottmann.tmdb2.services.MoviesServiceTest)  Time elapsed: 0.164 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual not to be null
+	at com.uwetrottmann.tmdb2.services.MoviesServiceTest.test_release_dates(MoviesServiceTest.java:216)
+
+test_summary_language(com.uwetrottmann.tmdb2.services.MoviesServiceTest)  Time elapsed: 0.115 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"[The Avengers - ]Os Vingadores"> but was:<"[]Os Vingadores">
+	at com.uwetrottmann.tmdb2.services.MoviesServiceTest.test_summary_language(MoviesServiceTest.java:69)
+
+test_summary_append_all(com.uwetrottmann.tmdb2.services.MoviesServiceTest)  Time elapsed: 4.77 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting actual not to be null
+	at com.uwetrottmann.tmdb2.services.MoviesServiceTest.test_summary_append_all(MoviesServiceTest.java:105)
+
