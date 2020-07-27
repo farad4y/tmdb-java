@@ -1,8 +1,11 @@
 package com.uwetrottmann.tmdb2.entities;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Credits {
+public class Credits implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     public Integer id;
 

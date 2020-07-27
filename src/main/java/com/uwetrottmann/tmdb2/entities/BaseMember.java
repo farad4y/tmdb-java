@@ -1,6 +1,10 @@
 package com.uwetrottmann.tmdb2.entities;
 
-public abstract class BaseMember {
+import java.io.Serializable;
+
+public abstract class BaseMember implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     public Integer id;
     public String credit_id;
